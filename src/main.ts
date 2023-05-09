@@ -12,6 +12,6 @@ async function bootstrap() {
     },
   });
   await app.listen();
-  () => console.log('Passenger microservice is listening');
+  console.log('Passenger microservice is listening');
 }
 bootstrap();
